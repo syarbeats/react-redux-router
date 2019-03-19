@@ -2,11 +2,7 @@ import React from 'react';
 
 function Index() {
     return (
-        <div className="card">
-            <div className="card-header">Home</div>
-            <div className="card-body">
-            </div>
-        </div>
+        <img src={require('../img/the-beatles.jpg')} />
     )
 }
 
